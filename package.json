@@ -1,6 +1,6 @@
 {
   "name": "defini",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "definition of several terms, concepts and modules in react.",
   "main": "index.js",
   "scripts": {
