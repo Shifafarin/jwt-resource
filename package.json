@@ -1,0 +1,13 @@
+{
+  "name": "defini",
+  "version": "1.0.0",
+  "description": "definition of several terms, concepts and modules in react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "git repository":"https://github.com/Shifafarin/definition",
+  "keywords": [],
+  "author": "shifa",
+  "license": "ISC"
+}
