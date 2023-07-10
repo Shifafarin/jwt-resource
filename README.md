@@ -12,13 +12,25 @@ Javascript
 npm install jwt-resourse
 
 ### you can leverage the following functions
-getToken, verifyToken, refreshToken, decodeToken, getTokenExpirationDate
+getToken, 
+
+verifyToken, 
+
+refreshToken, 
+
+decodeToken, 
+
+etTokenExpirationDate
 
 ### Syntaxes
 getToken(payload, secretkey, expiry)
+
 verifyToken(token,secretkey)
+
 refreshToken(payload, secretkey, expiry)
+
 decodeToken(token)
+
 getTokenExpirationDate(token)
 
 ### git Repository
