@@ -1,29 +1,43 @@
-# Project Title
+## Package Title
 
 This Package contain necessary jwt utilities to work with jwt tokens.
 
-## 🛠 Skills
+### 🛠 Skills
 Javascript
 
 ### Dependency
 - [jesonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
-### You can install this package using
-npm install jwt-resourse
+### Install
+```bash
+$ npm install jwt-resource
+```
 
 ### you can leverage the following functions
-getToken, verifyToken, refreshToken, decodeToken, getTokenExpirationDate
+- `getToken`
+
+- `verifyToken`
+
+- `refreshToken`
+
+- `decodeToken`
+
+- `getTokenExpirationDate`
 
 ### Syntaxes
-getToken(payload, secretkey, expiry)
-verifyToken(token,secretkey)
-refreshToken(payload, secretkey, expiry)
-decodeToken(token)
-getTokenExpirationDate(token)
+- `getToken(payload, secretkey, expiry)`
+
+- `verifyToken(token,secretkey)`
+
+- `refreshToken(payload, secretkey, expiry)`
+
+- `decodeToken(token)`
+
+- `getTokenExpirationDate(token)`
 
 ### git Repository
-- https://www.github.com/shifafarin/jwt-resource
+- https://github.com/plainsurf-solution/jwt-resource
 
 ### Authors
-- [@Shifafarin](https://www.github.com/shifafarin)
+- [@Plainsurf-Solutions](https://github.com/plainsurf-solution)
 
