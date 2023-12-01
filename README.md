@@ -14,6 +14,15 @@ $ npm install jwt-resource
 ```
 
 ### you can leverage the following functions
+getToken, 
+
+verifyToken, 
+
+refreshToken, 
+
+decodeToken, 
+
+etTokenExpirationDate
 - `getToken`
 
 - `verifyToken`
@@ -25,19 +34,14 @@ $ npm install jwt-resource
 - `getTokenExpirationDate`
 
 ### Syntaxes
-- `getToken(payload, secretkey, expiry)`
-
-- `verifyToken(token,secretkey)`
-
-- `refreshToken(payload, secretkey, expiry)`
-
-- `decodeToken(token)`
-
-- `getTokenExpirationDate(token)`
+getToken(payload, secretkey, expiry)
+verifyToken(token,secretkey)
+refreshToken(payload, secretkey, expiry)
+decodeToken(token)
+getTokenExpirationDate(token)
 
 ### git Repository
 - https://github.com/plainsurf-solution/jwt-resource
 
 ### Authors
 - [@Plainsurf-Solutions](https://github.com/plainsurf-solution)
-
